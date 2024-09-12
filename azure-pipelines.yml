@@ -8,6 +8,8 @@ trigger:
 
 pool:
   name: 'Self-Hosted'
+  workspace:
+    clean: all
 
 variables:
   solution: '**/*.sln'
